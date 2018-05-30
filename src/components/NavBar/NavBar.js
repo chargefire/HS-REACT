@@ -1,15 +1,16 @@
 import React, {
 	Component
 } from 'react';
+import Popover from "react-bootstrap/lib/Popover";
 
 //
-class Header extends Component {
+class NarBar extends Component {
 	render() {
 		return (
 			<div id="navbar-container" className="boxed">
           		<div className="navbar-header">
 					<a href="/Home/index/index" className="navbar-brand">
-						<img src={require('../assets/images/logo.png')} alt="Nifty Logo" className="brand-icon" />
+						<img src={require('../../assets/img/logo.png')} alt="Nifty Logo" className="brand-icon" />
 						<div className="brand-title">
 							<span className="brand-text">滴宝</span>
 						</div>
@@ -39,4 +40,4 @@ class Header extends Component {
 	}
 }
 
-export default Header;
+export default NarBar;
